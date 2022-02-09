@@ -27,8 +27,3 @@ edittag 0x00000C89
 importbitmap 0 DDS/transparent.dds
 savetagchanges
 exitto tags
-
-edittag 0x000012BC
-importbitmap 0 DDS/000012BC.dds
-savetagchanges
-exitto tags
