@@ -67,12 +67,12 @@ exitto tags
 ECHO BEAM RIFFLE SCOPE ( DELETE THIS IF YOU DONT LIKE THE SCALING OF THE SCOPE)
 edittag 0x00002459
 
-Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 2.21 1.05
-Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset -63 0
-Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale -3.8 3.5
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 2.3 1.05
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 2.95 0
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale -3.4 3.4
 
 Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Origin 2.21 1.05
-Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset -2.25 0
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset -2.95 0
 Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 3.5 3.5
 savetagchanges
 
