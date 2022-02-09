@@ -1,0 +1,60 @@
+edittag 0x11B3
+importbitmap 0 DDS\11B3.dds
+savetagchanges
+exit
+
+edittag 0x11B2
+importbitmap 0 DDS\11B2.dds
+savetagchanges
+exit
+
+edittag 0x000011FE
+importbitmap 0 DDS\PAIN.dds
+savetagchanges
+exit
+
+EditTag 0x11A8
+SetField ShaderProperties[0].Arguments[4].Arg1 1
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 0
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x11A7
+SpecifyShaders
+0x11A8
+0x11A9
+0x11AA
+0x11AB
+0x11AC
+0x11AD
+0x11AE
+null
+0x11B0
+0x11B1
+ExitTo tags
+
+EditTag 0x22EF
+SpecifyShaders
+0x11AE
+0x11A8
+0x11A9
+0x11B1
+0x11AA
+0x11B0
+null
+0x11AD
+0x11AB
+0x11AC
+ExitTo tags
+
+EditTag 0x11A7
+SetField Materials[7].RenderMethod null
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x22EF
+SetField Materials[6].RenderMethod null
+SaveTagChanges
+ExitTo tags

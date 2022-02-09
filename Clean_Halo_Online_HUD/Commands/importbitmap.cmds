@@ -1,0 +1,34 @@
+edittag 0x00000C8A
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C8B
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C8C
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C8F
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C88
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C89
+importbitmap 0 DDS/transparent.dds
+savetagchanges
+exitto tags
+
+edittag 0x000012BC
+importbitmap 0 DDS/000012BC.dds
+savetagchanges
+exitto tags
