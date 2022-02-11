@@ -1422,6 +1422,8 @@ Setfield HUDWidgets[3].BitmapWidgets[2].PlacementData[0].Scale 7.5 7.5
 Setfield HUDWidgets[3].BitmapWidgets[3].PlacementData[0].Origin 0 0
 Setfield HUDWidgets[3].BitmapWidgets[3].PlacementData[0].Offset -198 165
 Setfield HUDWidgets[3].BitmapWidgets[3].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].Textwidgets[0].PlacementData[0].Offset 240 187.5
+Setfield HUDWidgets[3].Textwidgets[0].PlacementData[0].Scale 1.95 1.95
 savetagchanges
 exitto tags
 
