@@ -309,7 +309,7 @@ savetagchanges
 exitto tags
 
 edittag 0x000025C3
-editblock Hudwidgets[3]
+editblock Hudwidgets[5]
 editblock bitmapwidgets[0]
 addblockelements Animationdata
 removeblockelements Animationdata 1 *
@@ -320,30 +320,8 @@ savetagchanges
 exit
 exit
 exit
-editblock Hudwidgets[3]
-editblock bitmapwidgets[5]
-addblockelements Animationdata
-removeblockelements Animationdata 1 *
-editblock Animationdata[0]
-editblock active
-Setfield Animation 0x0c5D
-savetagchanges
-exit
-exit
-exit
-editblock Hudwidgets[3]
-editblock bitmapwidgets[6]
-addblockelements Animationdata
-removeblockelements Animationdata 1 *
-editblock Animationdata[0]
-editblock active
-Setfield Animation 0x0c5D
-savetagchanges
-exit
-exit
-exit
-editblock Hudwidgets[3]
-editblock bitmapwidgets[7]
+editblock Hudwidgets[5]
+editblock bitmapwidgets[1]
 addblockelements Animationdata
 removeblockelements Animationdata 1 *
 editblock Animationdata[0]
