@@ -464,6 +464,18 @@ Setfield Animation 0x0c5D
 savetagchanges
 exitto tags
 
+Echo ROCKET
+edittag 0x00001C9F
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
 ECHO SMG
 edittag 0x000023D7
 editblock Hudwidgets[0]
