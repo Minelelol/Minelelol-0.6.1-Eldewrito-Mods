@@ -1361,6 +1361,7 @@ Savetagchanges
 exitto tags
 
 edittag 0x00002423
+savetagchanges
 editblock HUDWidgets[2]
 editblock BitmapWidgets[0]
 editblock AnimationData[0]
@@ -1373,6 +1374,7 @@ exit
 exit
 
 Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.4425 0.4425
+Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].origin 0 0
 Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].offset 0 -6
 Setfield HUDWidgets[2].BitmapWidgets[0].Bitmap 0x00005A90
 Setfield HUDWidgets[2].BitmapWidgets[0].BitmapSequenceIndex 10
