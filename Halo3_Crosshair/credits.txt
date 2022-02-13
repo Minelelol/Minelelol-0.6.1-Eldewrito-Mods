@@ -1,0 +1,3 @@
+Satomi (For making the halo 3 hud mod, I stole the value of the scaling and more from that mods >_>)
+Jalex (I stole his install.bat from HO music mods)
+Toge aka Super Idol (Teaching me basic of CHDT tags <3)
