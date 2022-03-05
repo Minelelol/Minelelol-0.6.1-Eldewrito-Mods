@@ -135,6 +135,8 @@ ECHO INCLUDING THE BITMAP ABOVE IF YOU WANT TO DELETE THE SCOPE SIZE
 
 
 Edittag 0x250E
+setfield runtimeperiodmsec 180
+savetagchanges
 removeblockelements Alpha 0 *
 editblock Rotation[0]
 editblock Keyframes[1]
