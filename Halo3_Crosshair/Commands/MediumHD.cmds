@@ -11,7 +11,7 @@ Setfield Sequences[14].Sprites[0].Left 0.890605
 savetagchanges
 exit
 
-edittag 0x12c5
+edittag 0x22F7
 importbitmap 0 DDS\SPARTAN_LASER\Spartan_laser.dds
 savetagchanges
 exit
@@ -323,7 +323,7 @@ Setfield HUDWidgets[2].BitmapWidgets[5].Name Useless_Shit2
 
 
 Echo Crosshair Zoom and Unzoom animation
-Setfield HUDWidgets[2].BitmapWidgets[3].Bitmap 0x12c5
+Setfield HUDWidgets[2].BitmapWidgets[3].Bitmap 0x22F7
 Setfield HUDWidgets[2].BitmapWidgets[3].PlacementData[0].Scale 0.7125 0.7125
 Setfield HUDWidgets[2].BitmapWidgets[3].PlacementData[0].Origin 0 0
 Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].Rangeinput Zero
@@ -331,7 +331,7 @@ Setfield HUDWidgets[2].BitmapWidgets[3].StateData[0].Unitzoomflags BinocularsEna
 Setfield HUDWidgets[2].BitmapWidgets[2].Name Crosshair_Unzoomed
 Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].Externalinput Zero
 
-Setfield HUDWidgets[2].BitmapWidgets[6].Bitmap 0x12c5
+Setfield HUDWidgets[2].BitmapWidgets[6].Bitmap 0x22F7
 Setfield HUDWidgets[2].BitmapWidgets[6].PlacementData[0].Scale 0.75 0.75
 Setfield HUDWidgets[2].BitmapWidgets[6].PlacementData[0].Origin 0 0
 Setfield HUDWidgets[2].BitmapWidgets[6].RenderData[0].Rangeinput Autoaim
