@@ -1,0 +1,232 @@
+edittag 0x000012BC
+importbitmap 0 DDS/pain.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C46
+importbitmap 0 DDS/00000C46.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001C86
+importbitmap 0 DDS/00001C86.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001D10
+importbitmap 0 DDS/weaponhigh.dds
+savetagchanges
+exitto tags
+
+edittag 0x573F
+importbitmap 0 DDS/sentinel.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C1E
+Setfield HUDWidgets[0].BitmapWidgets[1].StateData[0].Player_SpecialFlags ShieldsHeavyDamage
+Setfield HUDWidgets[0].BitmapWidgets[2].StateData[0].Player_SpecialFlags ShieldsHeavyDamage
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 0 -1.152
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0 -3.68
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.9885 0.841
+savetagchanges
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Origin 0 -1.152
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0 -3.68
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 0.9885 0.841
+savetagchanges
+Setfield HUDWidgets[0].BitmapWidgets[4].PlacementData[0].Origin 0 -1.152
+Setfield HUDWidgets[0].BitmapWidgets[4].PlacementData[0].Offset 0 -3.68
+Setfield HUDWidgets[0].BitmapWidgets[4].PlacementData[0].Scale 0.9885 0.841
+savetagchanges
+Setfield HUDWidgets[0].BitmapWidgets[5].PlacementData[0].Origin 0 -1.152
+Setfield HUDWidgets[0].BitmapWidgets[5].PlacementData[0].Offset 0 -3.68
+Setfield HUDWidgets[0].BitmapWidgets[5].PlacementData[0].Scale 0.9885 0.841
+savetagchanges
+
+Setfield HUDWidgets[2].PlacementData[0].Offset -24 35
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.3 1.3
+Setfield HUDWidgets[3].PlacementData[0].Offset -10 35
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.3 1.3
+Setfield HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 28.85 6
+Setfield HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.92 0.95
+Setfield HUDWidgets[4].PlacementData[0].Offset 7 35
+Setfield HUDWidgets[4].PlacementData[0].Scale 1.3 1.3
+Setfield HUDWidgets[5].PlacementData[0].Offset 22.025 35
+Setfield HUDWidgets[5].PlacementData[0].Scale 1.3 1.3
+savetagchanges
+
+Setfield HUDWidgets[25].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[25].BitmapWidgets[1].bitmap null
+savetagchanges
+Setfield HUDWidgets[26].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[26].BitmapWidgets[1].bitmap null
+Setfield HUDWidgets[26].BitmapWidgets[2].bitmap null
+savetagchanges
+Setfield HUDWidgets[27].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[1].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[2].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[3].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[4].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[5].bitmap null
+savetagchanges
+exitto tags
+
+
+ECHO -------------
+ECHO | AMMO ICON |
+ECHO -------------
+
+Echo Base ( Higher Contrast? )
+edittag 0x1C8E 
+importbitmap 0 DDS\ammo\base.dds
+savetagchanges
+exitto tags
+
+ECHO BRUTESHOT ( You know this doesnt look that bad )
+edittag 0x00000C8A
+importbitmap 0 DDS\ammo\bruteshot.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001D19
+setfield HUDWidgets[4].BitmapWidgets[2].bitmap 0x00000C8A
+savetagchanges
+exitto tags
+
+
+ECHO CARBINE ( OH GOD WHAT THE FUCK )
+edittag 0x00000C8B
+importbitmap 0 DDS\ammo\Carbine.dds
+savetagchanges
+exitto tags
+
+Edittag 0x00001DBA
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+edittag 0x000025CC
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+edittag 0x000025D5
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+edittag 0x000025B1
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+edittag 0x000025C3
+setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+edittag 0x000023FE
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00000C8B
+savetagchanges
+exitto tags
+
+ECHO ------------------------------------------------------------------------------------------------------ Cursed of Carbine are Gone
+
+ECHO FUEL ROD ( Meh )
+edittag 0x00000C8C
+importbitmap 0 DDS\ammo\fuel_rod.dds
+savetagchanges
+exitto tags
+
+edittag 0x21DE
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00000C8C
+savetagchanges
+exitto tags
+
+
+ECHO MAULER ( Imagine editing an bitmap realizing it has 8 Bitmap Index and so you get confused why the scaling of the ammo icon are wrong for hours and hours until you realized the cause of the problem, the index is 12 because it took me 12 hour to figured it out )
+edittag 0x00000C8F
+importbitmap 0 DDS\ammo\mauler.dds
+savetagchanges
+exitto tags
+
+edittag 0x0000208E
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00000C8F
+setfield HUDWidgets[3].BitmapWidgets[2].BitmapSequenceIndex 12
+setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x00000C8F
+setfield HUDWidgets[7].BitmapWidgets[2].BitmapSequenceIndex 12
+savetagchanges
+exitto tags
+
+edittag 0x00002409
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00000C8F
+setfield HUDWidgets[3].BitmapWidgets[2].BitmapSequenceIndex 12
+setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x00000C8F
+setfield HUDWidgets[7].BitmapWidgets[2].BitmapSequenceIndex 12
+savetagchanges
+exitto tags
+
+ECHO NEEDLER AND SPIKER ( SPIKER AMMO ICON LOOKS OFF, SO I JUST USE THE NEEDLER ONE BECAUSE IT LOOK BETTER )
+edittag 0x00000C88
+importbitmap 0 DDS\ammo\Needler.dds
+savetagchanges
+exitto tags
+
+ECHO NEEDLER ( FIRST :D )
+edittag 0x000020ED
+setfield HUDWidgets[4].BitmapWidgets[2].bitmap 0x00000C88
+savetagchanges
+exitto tags
+
+ECHO SPIKER ( LAST D: )
+edittag 0x00002057
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00000C88
+setfield HUDWidgets[5].BitmapWidgets[2].bitmap 0x00000C88
+savetagchanges
+exitto tags
+
+ECHO ROCKET LAUNCHER ( GOD YOU DONT WANT TO SEE AN OLDER VERSION OF THE DDS ITS FUCKING CURSED )
+edittag 0x00000C89
+importbitmap 0 DDS\ammo\Rocket_launcher.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001C9F
+setfield HUDWidgets[5].BitmapWidgets[2].bitmap 0x00000C89
+savetagchanges
+exitto tags
+
+ECHO SHOTGUN ( GUNSHOT )
+edittag 0x00000C39
+importbitmap 0 DDS\ammo\shotgun.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001EFE
+setfield HUDWidgets[4].BitmapWidgets[2].bitmap 0x00000C39
+savetagchanges
+exitto tags
+
+ECHO MAGNUM ( I TRIED )
+edittag 0x00001EEF
+importbitmap 0 DDS\ammo\magnum.dds
+savetagchanges
+exitto tags
+
+edittag 0x000020BC
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00001EEF
+savetagchanges
+exitto tags
+
+edittag 0x00002412
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00001EEF
+savetagchanges
+exitto tags
+
+edittag 0x0000241B
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x00001EEF
+savetagchanges
+exitto tags
