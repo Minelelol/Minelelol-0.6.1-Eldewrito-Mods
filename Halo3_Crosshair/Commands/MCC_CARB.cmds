@@ -1461,6 +1461,7 @@ Setfield HUDWidgets[2].BitmapWidgets[0].RenderData[0].Rangeinput Zero
 savetagchanges
 exitto tags
 
+
 Echo SMG
 edittag 0x00001F50
 Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.4425 0.4425
@@ -1497,7 +1498,7 @@ savetagchanges
 exitto tags
 
 edittag 0x000023D7
-editblock HUDWidgets[2]
+editblock HUDWidgets[1]
 editblock BitmapWidgets[0]
 editblock AnimationData[0]
 editblock Active
@@ -1572,7 +1573,7 @@ savetagchanges
 exitto tags
 
 edittag 0x23EA
-editblock HUDWidgets[2]
+editblock HUDWidgets[1]
 editblock BitmapWidgets[0]
 editblock AnimationData[0]
 editblock Active
@@ -1850,3 +1851,4 @@ Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].offset 0 19.5
 Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.375 0.375
 savetagchanges
 exitto tags
+
