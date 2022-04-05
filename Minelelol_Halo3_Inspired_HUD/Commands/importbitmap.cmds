@@ -71,6 +71,27 @@ Setfield HUDWidgets[27].BitmapWidgets[5].bitmap null
 savetagchanges
 exitto tags
 
+ECHO ---------------
+ECHO | MINOR FIXES |
+ECHO ---------------
+ECHO HAMMER
+Edittag 0x000031FC
+setfield HUDWidgets[2].BitmapWidgets[3].BitmapSequenceIndex 0
+savetagchanges
+copyblockelements HUDWidgets[2].BitmapWidgets 1 5
+exitto tags
+
+ECHO PLASMA TURRET
+edittag 0x00002527
+removeblockelements HUDWidgets[0].BitmapWidgets 1 *
+pasteblockelements HUDWidgets[0].BitmapWidgets
+setfield HUDWidgets[0].TextWidgets[0].Placementdata[0].Scale 0 0
+setfield HUDWidgets[0].BitmapWidgets[2].RenderData[0].ExternalInput WeaponAmmoLoaded
+setfield HUDWidgets[0].BitmapWidgets[2].RenderData[0].LocalScalarD 200
+setfield HUDWidgets[0].BitmapWidgets[0].Placementdata[0].Offset -15 2.5
+setfield HUDWidgets[0].BitmapWidgets[5].StateData[0].Weapon_SpecialFlags ClipBelowCutoff
+savetagchanges
+exitto tags
 
 ECHO -------------
 ECHO | AMMO ICON |
@@ -208,25 +229,37 @@ savetagchanges
 exitto tags
 
 ECHO MAGNUM ( I TRIED )
-edittag 0x00001EEF
+edittag 0x000012C5
 importbitmap 0 DDS\ammo\magnum.dds
 savetagchanges
 exitto tags
 
 edittag 0x000020BC
-setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
-setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x000012C5
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x000012C5
 savetagchanges
 exitto tags
 
 edittag 0x00002412
-setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
-setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x000012C5
+setfield HUDWidgets[6].BitmapWidgets[2].bitmap 0x000012C5
 savetagchanges
 exitto tags
 
 edittag 0x0000241B
-setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x00001EEF
-setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x00001EEF
+setfield HUDWidgets[3].BitmapWidgets[2].bitmap 0x000012C5
+setfield HUDWidgets[7].BitmapWidgets[2].bitmap 0x000012C5
+savetagchanges
+exitto tags
+
+ECHO MISSILE POD
+edittag 0x000012FC
+importbitmap 0 DDS\ammo\missilepods.dds
+savetagchanges
+exitto tags
+
+edittag 0x0000215A
+setfield HUDWidgets[1].BitmapWidgets[2].bitmap 0x000012FC
+setfield HUDWidgets[1].BitmapWidgets[2].BitmapSequenceIndex 222
 savetagchanges
 exitto tags
