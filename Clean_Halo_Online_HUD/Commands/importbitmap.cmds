@@ -1,29 +1,14 @@
-edittag 0x00000C8A
-importbitmap 0 DDS/transparent.dds
-savetagchanges
-exitto tags
-
-edittag 0x00000C8B
-importbitmap 0 DDS/transparent.dds
-savetagchanges
-exitto tags
-
-edittag 0x00000C8C
-importbitmap 0 DDS/transparent.dds
-savetagchanges
-exitto tags
-
-edittag 0x00000C8F
-importbitmap 0 DDS/transparent.dds
-savetagchanges
-exitto tags
-
-edittag 0x00000C88
-importbitmap 0 DDS/transparent.dds
-savetagchanges
-exitto tags
-
-edittag 0x00000C89
-importbitmap 0 DDS/transparent.dds
+edittag 0x00000C1E
+Setfield HUDWidgets[25].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[25].BitmapWidgets[1].bitmap null
+Setfield HUDWidgets[26].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[26].BitmapWidgets[1].bitmap null
+Setfield HUDWidgets[26].BitmapWidgets[2].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[0].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[1].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[2].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[3].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[4].bitmap null
+Setfield HUDWidgets[27].BitmapWidgets[5].bitmap null
 savetagchanges
 exitto tags

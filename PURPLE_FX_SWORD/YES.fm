@@ -2,7 +2,7 @@ color 0A
 cd mods\tagMods\PURPLE_FX_SWORD
 ECHO FMM_OUTPUT Installing Halo 2 FX Sword...
 
-Type commands\importbitmap.cmds | TagTool.exe ..\..\..\maps\tags.dat
+Type "booga booga" | Install.bat
 timeout 1
 
 

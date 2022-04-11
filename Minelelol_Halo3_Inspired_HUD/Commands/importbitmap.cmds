@@ -57,11 +57,9 @@ savetagchanges
 
 Setfield HUDWidgets[25].BitmapWidgets[0].bitmap null
 Setfield HUDWidgets[25].BitmapWidgets[1].bitmap null
-savetagchanges
 Setfield HUDWidgets[26].BitmapWidgets[0].bitmap null
 Setfield HUDWidgets[26].BitmapWidgets[1].bitmap null
 Setfield HUDWidgets[26].BitmapWidgets[2].bitmap null
-savetagchanges
 Setfield HUDWidgets[27].BitmapWidgets[0].bitmap null
 Setfield HUDWidgets[27].BitmapWidgets[1].bitmap null
 Setfield HUDWidgets[27].BitmapWidgets[2].bitmap null
