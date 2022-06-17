@@ -321,15 +321,25 @@ Setfield HUDWidgets[2].BitmapWidgets[5].Bitmap null
 Setfield HUDWidgets[2].BitmapWidgets[4].Name Useless_Shit
 Setfield HUDWidgets[2].BitmapWidgets[5].Name Useless_Shit2
 
-
 Echo Crosshair Zoom and Unzoom animation
 Setfield HUDWidgets[2].BitmapWidgets[3].Bitmap 0x22F7
 Setfield HUDWidgets[2].BitmapWidgets[3].PlacementData[0].Scale 0.7125 0.7125
 Setfield HUDWidgets[2].BitmapWidgets[3].PlacementData[0].Origin 0 0
-Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].Rangeinput Zero
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].Rangeinput Autoaim
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].ExternalInput Autoaim
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].LocalColorD 0 0 0 0 
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].LocalScalarA 2
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].LocalScalarB 2
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].LocalScalarC 2
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].LocalScalarD 2
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputColorD LocalA
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarA Input
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarB RangeInput
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarC RangeInput
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarD RangeInput
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarE RangeInput
+Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarF RangeInput
 Setfield HUDWidgets[2].BitmapWidgets[3].StateData[0].Unitzoomflags BinocularsEnabled
-Setfield HUDWidgets[2].BitmapWidgets[2].Name Crosshair_Unzoomed
-Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].Externalinput Zero
 
 Setfield HUDWidgets[2].BitmapWidgets[6].Bitmap 0x22F7
 Setfield HUDWidgets[2].BitmapWidgets[6].PlacementData[0].Scale 0.75 0.75
