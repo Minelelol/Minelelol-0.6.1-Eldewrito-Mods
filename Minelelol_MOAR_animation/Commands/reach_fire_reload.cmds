@@ -1,0 +1,41 @@
+echo --------------------------------------------------------------------------------------------------------
+echo I                                              MAGNUM                                                  I
+echo --------------------------------------------------------------------------------------------------------
+echo Magnum_Pistol Hell yea finally some content
+edittag objects\characters\masterchief\fp\weapons\pistol\magnum\fp_magnum\fp_magnum.jmad
+removeblockelements animations 55 *
+addanimation Animation\_REACH_\Magnum
+swapblockelements animations 37 55
+swapblockelements animations 20 46
+swapblockelements animations 21 47
+swapblockelements animations 22 48
+addblockelements animations[37].animationdata.FrameEvents 2
+addblockelements animations[37].animationdata.SoundEvents 2
+
+setfield animations[37].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[37].animationdata.NodeListChecksum -461227299
+setfield animations[37].animationdata.ProductionChecksum 1924052119
+setfield animations[37].animationdata.Soundevents[0].Sound 8
+setfield animations[37].animationdata.Soundevents[1].Sound 7
+setfield animations[37].animationdata.Soundevents[1].Frame 29
+setfield animations[37].animationdata.Frameevents[0].Frame 34
+setfield animations[37].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[37].animationdata.Frameevents[1].Frame 47
+
+setfield animations[20].weight 0.4
+setfield animations[20].animationdata.NextAnimation 21
+setfield animations[20].animationdata.NodeListChecksum -461227299
+setfield animations[20].animationdata.ProductionChecksum 487999161
+setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[21].weight 0.65
+setfield animations[21].animationdata.NextAnimation 22
+setfield animations[21].animationdata.NodeListChecksum -461227299
+setfield animations[21].animationdata.ProductionChecksum 487999161
+setfield animations[21].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[22].weight 1
+setfield animations[22].animationdata.ParentAnimation 20
+setfield animations[22].animationdata.NodeListChecksum -461227299
+setfield animations[22].animationdata.ProductionChecksum 487999161
+setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
+savetagchanges
+exitto tags
