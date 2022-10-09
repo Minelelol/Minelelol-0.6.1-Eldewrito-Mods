@@ -185,8 +185,8 @@ echo I                                         Beam_Rifle                       
 echo --------------------------------------------------------------------------------------------------------
 ECHO Beam Rifle WE WERE INVICIBLE UNTIL THE JACKAL HEADSHOTTED US. also no content? :(
 edittag objects\weapons\rifle\beam_rifle\fp_beam_rifle\fp_beam_rifle.mode
-setfield MarkerGroups[4].Markers[0].Translation -0.09 0.000566994 -0.05
-setfield MarkerGroups[4].Markers[0].Rotation -0.520648 0.1152043 -0.228126 0.6347026
+setfield MarkerGroups[4].Markers[0].Translation -0.0715 -0.003 -0.056
+setfield MarkerGroups[4].Markers[0].Rotation -0.560648 0.0982043 -0.288126 0.6347026
 savetagchanges
 exitto tags
 edittag objects\characters\masterchief\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.jmad
@@ -661,8 +661,8 @@ echo I                                              NEEDLER                     
 echo --------------------------------------------------------------------------------------------------------
 echo LeNeedlers at its finest aka this fucking gun is bullshit
 edittag objects\weapons\pistol\needler\fp_needler\fp_needler.mode
-setfield MarkerGroups[2].Markers[0].Translation 0.0008397936 0.002885663 -0.04803041
-setfield MarkerGroups[2].Markers[0].Rotation -0.4881219 0.1069957 -0.3598073 0.665412
+setfield MarkerGroups[2].Markers[0].Translation 0.0008397936 0.004685663 -0.04803041
+setfield MarkerGroups[2].Markers[0].Rotation -0.4881219 0.1069957 -0.3598073 0.465412
 savetagchanges
 exitto tags
 edittag objects\characters\masterchief\fp\weapons\pistol\needler\fp_needler\fp_needler.jmad
@@ -680,24 +680,27 @@ removeblockelements animations 25 *
 addanimation Animation\NEEDLER
 
 setfield animations[16].weight 0.555
-setfield animations[16].animationdata.NextAnimation 28
-addblockelements animations[28].animationdata.SoundEvents 1
-setfield animations[28].animationdata.NodeListChecksum 1635012550
-setfield animations[28].animationdata.ProductionChecksum -684544162
-setfield animations[28].animationdata.InternalFlags ValidProductionChecksum
-setfield animations[28].animationdata.Productionflags VerifySoundEvents
-setfield animations[28].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[28].weight 1
-setfield animations[28].animationdata.ParentAnimation 16
-setfield animations[28].animationdata.Soundevents[0].Sound 3
+setfield animations[16].animationdata.NextAnimation 27
+addblockelements animations[27].animationdata.SoundEvents 1
+setfield animations[27].animationdata.NodeListChecksum 1635012550
+setfield animations[27].animationdata.ProductionChecksum -684544162
+setfield animations[27].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[27].animationdata.Productionflags VerifySoundEvents
+setfield animations[27].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[27].weight 1
+setfield animations[27].animationdata.ParentAnimation 16
+setfield animations[27].animationdata.Soundevents[0].Sound 3
 
-swapblockelements animations 23 29
-swapblockelements animations 24 30
+swapblockelements animations 23 28
+swapblockelements animations 24 29
+swapblockelements animations 17 30
+swapblockelements animations 18 31
+
 
 addblockelements animations[23].animationdata.FrameEvents 1
 addblockelements animations[24].animationdata.FrameEvents 1
 
-setfield animations[23].PlaybackFlags DisableWeaponAim1stPerson
+setfield animations[23].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[23].animationdata.NodeListChecksum 1635012550
 setfield animations[23].animationdata.ProductionChecksum -684544162
 setfield animations[23].animationdata.InternalFlags ValidProductionChecksum
@@ -709,8 +712,29 @@ setfield animations[24].animationdata.ProductionChecksum -684544162
 setfield animations[24].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[24].animationdata.Frameevents[0].Frame 10
 
-setfield animations[17].PlaybackFlags DisableWeaponAim1stPerson
-setfield animations[18].PlaybackFlags DisableWeaponAim1stPerson
+addblockelements animations[17].animationdata.FrameEvents 2
+addblockelements animations[17].animationdata.SoundEvents 1
+setfield animations[17].animationdata.NodeListChecksum 1635012550
+setfield animations[17].animationdata.ProductionChecksum -2074217104
+setfield animations[17].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[17].animationdata.Productionflags VerifySoundEvents
+setfield animations[17].animationdata.Soundevents[0].Sound 4
+setfield animations[17].animationdata.Frameevents[0].Frame 25
+setfield animations[17].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[17].animationdata.Frameevents[1].Frame 34
+
+addblockelements animations[18].animationdata.FrameEvents 2
+addblockelements animations[18].animationdata.SoundEvents 1
+setfield animations[18].animationdata.NodeListChecksum 1635012550
+setfield animations[18].animationdata.ProductionChecksum -2074217104
+setfield animations[18].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[18].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[18].animationdata.Productionflags VerifySoundEvents
+setfield animations[18].animationdata.Soundevents[0].Sound 4
+setfield animations[18].animationdata.Frameevents[0].Frame 25
+setfield animations[18].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[18].animationdata.Frameevents[1].Frame 34
 
 setfield animations[9].weight 0.444
 setfield animations[9].animationdata.NextAnimation 25
@@ -732,8 +756,8 @@ setfield animations[25].animationdata.InternalFlags ValidProductionChecksum
 
 addblockelements animations[26].animationdata.FrameEvents 3
 addblockelements animations[26].animationdata.SoundEvents 1
-setfield animations[26].weight 0.888
-setfield animations[26].animationdata.NextAnimation 27
+setfield animations[26].weight 1
+setfield animations[26].animationdata.ParentAnimation 9
 setfield animations[26].animationdata.Soundevents[0].Sound 0
 setfield animations[26].animationdata.Frameevents[0].Frame 4
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
@@ -744,22 +768,7 @@ setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[26].animationdata.NodeListChecksum 1635012550
 setfield animations[26].animationdata.ProductionChecksum 2027831419
 setfield animations[26].animationdata.InternalFlags ValidProductionChecksum
-
-addblockelements animations[27].animationdata.FrameEvents 3
-addblockelements animations[27].animationdata.SoundEvents 1
-setfield animations[27].weight 1
-setfield animations[27].animationdata.ParentAnimation 9
-setfield animations[27].animationdata.Soundevents[0].Sound 0
-setfield animations[27].animationdata.Frameevents[0].Frame 4
-setfield animations[27].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
-setfield animations[27].animationdata.Frameevents[1].Frame 28
-setfield animations[27].animationdata.Frameevents[2].TypeHO TransitionA
-setfield animations[27].animationdata.Frameevents[2].Frame 22
-setfield animations[27].PlaybackFlags DisableWeaponAim1stPerson
-setfield animations[27].animationdata.NodeListChecksum 1635012550
-setfield animations[27].animationdata.ProductionChecksum 2027831419
-setfield animations[27].animationdata.InternalFlags ValidProductionChecksum
-removeblockelements animations 29 *
+removeblockelements animations 28 *
 savetagchanges
 exitto tags
 echo --------------------------------------------------------------------------------------------------------
