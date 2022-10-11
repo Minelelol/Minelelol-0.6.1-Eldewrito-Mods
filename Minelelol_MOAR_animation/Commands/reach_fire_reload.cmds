@@ -19,7 +19,7 @@ setfield animations[37].animationdata.Soundevents[0].Sound 8
 setfield animations[37].animationdata.Soundevents[1].Sound 7
 setfield animations[37].animationdata.Soundevents[1].Frame 29
 setfield animations[37].animationdata.Frameevents[0].Frame 34
-setfield animations[37].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[37].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[37].animationdata.Frameevents[1].Frame 47
 
 setfield animations[20].weight 0.4

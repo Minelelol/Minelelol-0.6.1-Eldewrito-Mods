@@ -81,7 +81,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 3
 setfield animations[26].animationdata.Frameevents[0].Frame 4
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 14
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 23
 
 setfield animations[27].weight 1
@@ -90,7 +90,7 @@ setfield animations[27].animationdata.Soundevents[0].Sound 2
 setfield animations[27].animationdata.Frameevents[0].Frame 4
 setfield animations[27].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[27].animationdata.Frameevents[1].Frame 14
-setfield animations[27].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[27].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[27].animationdata.Frameevents[2].Frame 23
 
 setfield animations[28].weight 1
@@ -154,7 +154,7 @@ setfield animations[25].animationdata.Soundevents[0].Sound 0
 setfield animations[25].animationdata.Frameevents[0].Frame 4
 setfield animations[25].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[25].animationdata.Frameevents[1].Frame 14
-setfield animations[25].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[25].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[25].animationdata.Frameevents[2].Frame 23
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
@@ -164,7 +164,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 1
 setfield animations[26].animationdata.Frameevents[0].Frame 4
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 14
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 23
 setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
 savetagchanges
@@ -247,7 +247,7 @@ setfield animations[28].animationdata.Soundevents[0].Sound 6
 setfield animations[28].animationdata.Frameevents[0].Frame 4
 setfield animations[28].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[28].animationdata.Frameevents[1].Frame 14
-setfield animations[28].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[28].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[28].animationdata.Frameevents[2].Frame 23
 setfield animations[28].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
@@ -280,7 +280,7 @@ setfield animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[17].animationdata.Productionflags VerifySoundEvents
 setfield animations[17].animationdata.Soundevents[0].Sound 4
 setfield animations[17].animationdata.Frameevents[0].Frame 34
-setfield animations[17].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[17].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[17].animationdata.Frameevents[1].Frame 62
 addblockelements animations[18].animationdata.FrameEvents 2
 addblockelements animations[18].animationdata.SoundEvents 1
@@ -291,7 +291,7 @@ setfield animations[18].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[18].animationdata.Productionflags VerifySoundEvents
 setfield animations[18].animationdata.Soundevents[0].Sound 4
 setfield animations[18].animationdata.Frameevents[0].Frame 34
-setfield animations[18].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[18].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[18].animationdata.Frameevents[1].Frame 52
 
 setfield animations[16].weight 0.555
@@ -323,7 +323,7 @@ setfield animations[25].animationdata.Soundevents[0].Sound 0
 setfield animations[25].animationdata.Frameevents[0].Frame 4
 setfield animations[25].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[25].animationdata.Frameevents[1].Frame 14
-setfield animations[25].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[25].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[25].animationdata.Frameevents[2].Frame 23
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
@@ -333,7 +333,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 1
 setfield animations[26].animationdata.Frameevents[0].Frame 4
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 14
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 23
 setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
 savetagchanges
@@ -365,7 +365,7 @@ setfield animations[24].animationdata.Soundevents[0].Sound 4
 setfield animations[24].animationdata.Frameevents[0].Frame 5
 setfield animations[24].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[24].animationdata.Frameevents[1].Frame 15
-setfield animations[24].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[24].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[24].animationdata.Frameevents[2].Frame 30
 setfield animations[24].animationdata.NodeListChecksum -410940171
 setfield animations[24].animationdata.ProductionChecksum 1088360712
@@ -437,7 +437,7 @@ setfield animations[22].animationdata.Soundevents[0].Sound 2
 setfield animations[22].animationdata.Frameevents[0].Frame 4
 setfield animations[22].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[22].animationdata.Frameevents[1].Frame 15
-setfield animations[22].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[22].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[22].animationdata.Frameevents[2].Frame 15
 setfield animations[22].PlaybackFlags DisableWeaponAim1stPerson
 savetagchanges
@@ -492,7 +492,7 @@ setfield animations[37].animationdata.NodeListChecksum -461227299
 setfield animations[37].animationdata.ProductionChecksum 1924052119
 setfield animations[37].animationdata.Soundevents[0].Sound 8
 setfield animations[37].animationdata.Frameevents[0].Frame 34
-setfield animations[37].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[37].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[37].animationdata.Frameevents[1].Frame 47
 
 setfield animations[38].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
@@ -500,7 +500,7 @@ setfield animations[38].animationdata.NodeListChecksum -461227299
 setfield animations[38].animationdata.ProductionChecksum -1200316435
 setfield animations[38].animationdata.Soundevents[0].Sound 8
 setfield animations[38].animationdata.Frameevents[0].Frame 34
-setfield animations[38].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[38].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[38].animationdata.Frameevents[1].Frame 47
 
 setfield animations[36].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
@@ -533,7 +533,7 @@ setfield animations[50].animationdata.Soundevents[0].Sound 4
 setfield animations[50].animationdata.Frameevents[0].Frame 3
 setfield animations[50].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[50].animationdata.Frameevents[1].Frame 15
-setfield animations[50].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[50].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[50].animationdata.Frameevents[2].Frame 23
 setfield animations[50].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[50].animationdata.NodeListChecksum -461227299
@@ -548,7 +548,7 @@ setfield animations[51].animationdata.Soundevents[1].Frame 16
 setfield animations[51].animationdata.Frameevents[0].Frame 3
 setfield animations[51].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[51].animationdata.Frameevents[1].Frame 15
-setfield animations[51].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[51].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[51].animationdata.Frameevents[2].Frame 23
 setfield animations[51].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[51].animationdata.NodeListChecksum -461227299
@@ -626,7 +626,7 @@ setfield animations[43].animationdata.Soundevents[0].Sound 6
 setfield animations[43].animationdata.Frameevents[0].Frame 5
 setfield animations[43].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[43].animationdata.Frameevents[1].Frame 15
-setfield animations[43].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[43].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[43].animationdata.Frameevents[2].Frame 22
 setfield animations[43].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[43].animationdata.NodeListChecksum 336995582
@@ -721,7 +721,7 @@ setfield animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[17].animationdata.Productionflags VerifySoundEvents
 setfield animations[17].animationdata.Soundevents[0].Sound 4
 setfield animations[17].animationdata.Frameevents[0].Frame 25
-setfield animations[17].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[17].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[17].animationdata.Frameevents[1].Frame 34
 
 addblockelements animations[18].animationdata.FrameEvents 2
@@ -733,7 +733,7 @@ setfield animations[18].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[18].animationdata.Productionflags VerifySoundEvents
 setfield animations[18].animationdata.Soundevents[0].Sound 4
 setfield animations[18].animationdata.Frameevents[0].Frame 25
-setfield animations[18].animationdata.Frameevents[1].TypeHO TransitionA
+setfield animations[18].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[18].animationdata.Frameevents[1].Frame 34
 
 setfield animations[9].weight 0.444
@@ -747,7 +747,7 @@ setfield animations[25].animationdata.Soundevents[0].Sound 0
 setfield animations[25].animationdata.Frameevents[0].Frame 4
 setfield animations[25].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[25].animationdata.Frameevents[1].Frame 28
-setfield animations[25].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[25].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[25].animationdata.Frameevents[2].Frame 22
 setfield animations[25].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[25].animationdata.NodeListChecksum 1635012550
@@ -762,7 +762,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 0
 setfield animations[26].animationdata.Frameevents[0].Frame 4
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 28
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 22
 setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[26].animationdata.NodeListChecksum 1635012550
@@ -893,7 +893,7 @@ setfield animations[53].animationdata.Soundevents[0].Sound 0
 setfield animations[53].animationdata.Frameevents[0].Frame 3
 setfield animations[53].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[53].animationdata.Frameevents[1].Frame 14
-setfield animations[53].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[53].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[53].animationdata.Frameevents[2].Frame 25
 setfield animations[53].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[53].animationdata.NodeListChecksum 737305646
@@ -965,7 +965,7 @@ setfield animations[28].PlaybackFlags DisableWeaponIk
 setfield animations[44].PlaybackFlags DisableWeaponIk
 addblockelements animations[46].animationdata.FrameEvents 1
 addblockelements animations[46].animationdata.SoundEvents 1
-setfield animations[46].animationdata.Frameevents[0].TypeHO TransitionA
+setfield animations[46].animationdata.Frameevents[0].TypeHO AllowInterruption
 setfield animations[46].animationdata.Frameevents[0].Frame 15
 setfield animations[46].animationdata.NodeListChecksum -452521795
 setfield animations[46].animationdata.ProductionChecksum -1166893088
@@ -1034,7 +1034,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 0
 setfield animations[26].animationdata.Frameevents[0].Frame 5
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 15
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 30
 setfield animations[26].animationdata.NodeListChecksum -462889827
 setfield animations[26].animationdata.ProductionChecksum -256370459
@@ -1049,7 +1049,7 @@ setfield animations[27].animationdata.Soundevents[0].Sound 0
 setfield animations[27].animationdata.Frameevents[0].Frame 5
 setfield animations[27].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[27].animationdata.Frameevents[1].Frame 15
-setfield animations[27].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[27].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[27].animationdata.Frameevents[2].Frame 30
 setfield animations[27].animationdata.NodeListChecksum -462889827
 setfield animations[27].animationdata.ProductionChecksum -256370459
@@ -1214,7 +1214,7 @@ setfield animations[8].animationdata.Soundevents[0].Sound 1
 setfield animations[8].animationdata.Frameevents[0].Frame 5
 setfield animations[8].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[8].animationdata.Frameevents[1].Frame 15
-setfield animations[8].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[8].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[8].animationdata.Frameevents[2].Frame 20
 setfield animations[8].animationdata.NodeListChecksum -461722627
 setfield animations[8].animationdata.ProductionChecksum 2073897455
@@ -1230,7 +1230,7 @@ setfield animations[26].animationdata.Soundevents[0].Sound 1
 setfield animations[26].animationdata.Frameevents[0].Frame 5
 setfield animations[26].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[26].animationdata.Frameevents[1].Frame 15
-setfield animations[26].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 20
 setfield animations[26].animationdata.NodeListChecksum -461722627
 setfield animations[26].animationdata.ProductionChecksum 2073897455
@@ -1244,7 +1244,7 @@ setfield animations[9].animationdata.Soundevents[0].Sound 2
 setfield animations[9].animationdata.Frameevents[0].Frame 5
 setfield animations[9].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[9].animationdata.Frameevents[1].Frame 15
-setfield animations[9].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[9].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[9].animationdata.Frameevents[2].Frame 20
 setfield animations[9].animationdata.NodeListChecksum -461722627
 setfield animations[9].animationdata.ProductionChecksum -1400618391
@@ -1332,7 +1332,7 @@ setfield animations[39].animationdata.Soundevents[0].Sound 10
 setfield animations[39].animationdata.Frameevents[0].Frame 3
 setfield animations[39].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[39].animationdata.Frameevents[1].Frame 14
-setfield animations[39].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[39].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[39].animationdata.Frameevents[2].Frame 18
 setfield animations[39].animationdata.NodeListChecksum 762532158
 setfield animations[39].animationdata.ProductionChecksum -1380242490
@@ -1485,7 +1485,7 @@ setfield animations[32].animationdata.Soundevents[0].Sound 1
 setfield animations[32].animationdata.Frameevents[0].Frame 5
 setfield animations[32].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[32].animationdata.Frameevents[1].Frame 15
-setfield animations[32].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[32].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[32].animationdata.Frameevents[2].Frame 32
 setfield animations[32].animationdata.NodeListChecksum 1277860952
 setfield animations[32].animationdata.ProductionChecksum -2099842994
@@ -1586,7 +1586,7 @@ setfield animations[25].animationdata.Soundevents[1].Sound 5
 setfield animations[25].animationdata.Frameevents[0].Frame 2
 setfield animations[25].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[25].animationdata.Frameevents[1].Frame 15
-setfield animations[25].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[25].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[25].animationdata.Frameevents[2].Frame 37
 setfield animations[25].animationdata.NodeListChecksum 939232422
 setfield animations[25].animationdata.ProductionChecksum 300582155
@@ -1635,7 +1635,7 @@ setfield animations[28].animationdata.Soundevents[1].Sound 5
 setfield animations[28].animationdata.Frameevents[0].Frame 5
 setfield animations[28].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[28].animationdata.Frameevents[1].Frame 11
-setfield animations[28].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[28].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[28].animationdata.Frameevents[2].Frame 11
 setfield animations[28].animationdata.NodeListChecksum 939232422
 setfield animations[28].animationdata.ProductionChecksum 1147390216
@@ -1653,7 +1653,7 @@ setfield animations[29].animationdata.Soundevents[1].Sound 5
 setfield animations[29].animationdata.Frameevents[0].Frame 5
 setfield animations[29].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[29].animationdata.Frameevents[1].Frame 11
-setfield animations[29].animationdata.Frameevents[2].TypeHO TransitionA
+setfield animations[29].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[29].animationdata.Frameevents[2].Frame 11
 setfield animations[29].animationdata.NodeListChecksum 939232422
 setfield animations[29].animationdata.ProductionChecksum -659900968
