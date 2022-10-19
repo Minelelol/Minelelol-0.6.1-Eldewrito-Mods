@@ -1165,6 +1165,7 @@ swapblockelements animations 9 36
 swapblockelements animations 16 31
 swapblockelements animations 21 32
 swapblockelements animations 23 33
+swapblockelements animations 24 38
 swapblockelements animations 25 34
 removeblockelements animations 26 11
 
@@ -1265,7 +1266,13 @@ setfield animations[21].PlaybackFlags ForceWeaponIkOn
 setfield animations[22].PlaybackFlags ForceWeaponIkOn
 setfield animations[23].PlaybackFlags ForceWeaponIkOn
 
-setfield animations[24].PlaybackFlags DisableWeaponAim1stPerson
+addblockelements animations[24].animationdata.FrameEvents 1
+setfield animations[24].animationdata.Frameevents[0].Frame 12
+setfield animations[24].animationdata.NodeListChecksum -461722627
+setfield animations[24].animationdata.ProductionChecksum -72363640
+setfield animations[24].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[24].animationdata.InternalFlags ValidProductionChecksum
+
 addblockelements animations[25].animationdata.FrameEvents 1
 setfield animations[25].animationdata.Frameevents[0].Frame 10
 setfield animations[25].animationdata.NodeListChecksum -461722627
