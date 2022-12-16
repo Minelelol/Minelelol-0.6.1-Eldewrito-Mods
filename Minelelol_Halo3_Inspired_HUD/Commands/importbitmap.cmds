@@ -6,7 +6,7 @@ importbitmap 0 DDS\Motion_prime.dds
 savetagchanges
 exitto tags
 
-### THE HEALTH BAR ASSEST IS FROM SEEDONATOR
+### THE HEALTH BAR ASSET IS FROM SEEDONATOR
 
 deletetag healthbar.bitm
 createtag bitm
@@ -24,37 +24,37 @@ importbitmap 0 DDS\healthborder.dds
 savetagchanges
 exitto tags
 
-edittag 0x0000C37
+edittag 0x0000C37.bitm
 importbitmap 0 DDS/C37.DDS
 savetagchanges
 exitto tags
 
-edittag 0x0000C38
+edittag 0x0000C38.bitm
 importbitmap 0 DDS/C38.DDS
 savetagchanges
 exitto tags
 
-edittag 0x000012BC
+edittag 0x000012BC.bitm
 importbitmap 0 DDS/pain.dds
 savetagchanges
 exitto tags
 
-edittag 0x00000C46
+edittag 0x00000C46.bitm
 importbitmap 0 DDS/00000C46.dds
 savetagchanges
 exitto tags
 
-edittag 0x00001C86
+edittag ui\chud\bitmaps\red_flash.bitm
 importbitmap 0 DDS/00001C86.dds
 savetagchanges
 exitto tags
 
-edittag 0x00001D10
+edittag 0x00001D10.bitm
 importbitmap 0 DDS/weaponhigh.dds
 savetagchanges
 exitto tags
 
-edittag 0x573F
+edittag 0x0000573F.bitm
 importbitmap 0 DDS/sentinel.dds
 savetagchanges
 exitto tags
@@ -147,7 +147,7 @@ SetField HUDWidgets[0].BitmapWidgets[13].RenderData[0].ExternalInput BodyVitalit
 SetField HUDWidgets[0].BitmapWidgets[13].RenderData[0].RangeInput HealthRecentDamage
 SetField HUDWidgets[0].BitmapWidgets[13].PlacementData[0].Origin 0 -1
 SetField HUDWidgets[0].BitmapWidgets[13].PlacementData[0].Offset 0 12
-SetField HUDWidgets[0].BitmapWidgets[13].PlacementData[0].Scale 0.9 1
+SetField HUDWidgets[0].BitmapWidgets[13].PlacementData[0].Scale 0.8 1
 SetField HUDWidgets[0].BitmapWidgets[13].StateData[0].UnitGeneralFlags 0
 
 SetField HUDWidgets[0].BitmapWidgets[12].Bitmap healthborder.bitm
@@ -155,7 +155,7 @@ SetField HUDWidgets[0].BitmapWidgets[12].RenderData[0].ExternalInput Zero
 SetField HUDWidgets[0].BitmapWidgets[12].RenderData[0].RangeInput BodyVitality
 SetField HUDWidgets[0].BitmapWidgets[12].RenderData[0].LocalScalarB 1
 SetField HUDWidgets[0].BitmapWidgets[12].PlacementData[0].Offset 0 12
-SetField HUDWidgets[0].BitmapWidgets[12].PlacementData[0].Scale 0.9 1
+SetField HUDWidgets[0].BitmapWidgets[12].PlacementData[0].Scale 0.8 1
 SetField HUDWidgets[0].BitmapWidgets[12].StateData[0].UnitGeneralFlags 0
 savetagchanges
 exitto tags
@@ -164,14 +164,14 @@ ECHO ---------------
 ECHO | MINOR FIXES |
 ECHO ---------------
 ECHO HAMMER
-Edittag 0x000031FC
+Edittag ui\chud\hammer.chdt
 setfield HUDWidgets[2].BitmapWidgets[3].BitmapSequenceIndex 0
 savetagchanges
 copyblockelements HUDWidgets[2].BitmapWidgets 1 5
 exitto tags
 
 ECHO PLASMA TURRET
-edittag 0x00002527
+edittag ui\chud\plasma_turret.chdt
 removeblockelements HUDWidgets[0].BitmapWidgets 1 *
 pasteblockelements HUDWidgets[0].BitmapWidgets
 setfield HUDWidgets[0].TextWidgets[0].Placementdata[0].Scale 0 0
