@@ -351,9 +351,14 @@ savetagchanges
 removeblockelements animations 24 *
 addanimation animation\FUELROD
 swapblockelements animations 20 25
+swapblockelements animations 21 26
 setfield animations[20].animationdata.NodeListChecksum -462889827
 setfield animations[20].animationdata.ProductionChecksum -1862434197
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[21].animationdata.NodeListChecksum -462889827
+setfield animations[21].animationdata.ProductionChecksum 604534468
+setfield animations[21].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[8].weight 0.555
 setfield animations[8].animationdata.NextAnimation 24
@@ -371,6 +376,7 @@ setfield animations[24].animationdata.NodeListChecksum -410940171
 setfield animations[24].animationdata.ProductionChecksum 1088360712
 setfield animations[24].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[24].animationdata.Productionflags VerifySoundEvents
+removeblockelements animations 25 *
 savetagchanges
 exitto tags
 echo --------------------------------------------------------------------------------------------------------
@@ -1160,14 +1166,16 @@ swapblockelements animations 1 27
 swapblockelements animations 2 28
 swapblockelements animations 3 29
 swapblockelements animations 6 30
-swapblockelements animations 8 35
-swapblockelements animations 9 36
-swapblockelements animations 16 31
-swapblockelements animations 21 32
-swapblockelements animations 23 33
+swapblockelements animations 8 31
+swapblockelements animations 9 32
+swapblockelements animations 16 33
+swapblockelements animations 20 34
+swapblockelements animations 21 35
+swapblockelements animations 22 36
+swapblockelements animations 23 37
 swapblockelements animations 24 38
-swapblockelements animations 25 34
-removeblockelements animations 26 11
+swapblockelements animations 25 39
+removeblockelements animations 26 14
 
 setfield animations[0].animationdata.NodeListChecksum -461722627
 setfield animations[0].animationdata.ProductionChecksum -981226608
@@ -1262,8 +1270,14 @@ setfield animations[16].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[16].animationdata.Productionflags VerifySoundEvents
 
 setfield animations[20].PlaybackFlags ForceWeaponIkOn
+setfield animations[20].animationdata.NodeListChecksum -461722627
+setfield animations[20].animationdata.ProductionChecksum 1581596395
+setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[21].PlaybackFlags ForceWeaponIkOn
 setfield animations[22].PlaybackFlags ForceWeaponIkOn
+setfield animations[22].animationdata.NodeListChecksum -461722627
+setfield animations[22].animationdata.ProductionChecksum -1162472718
+setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[23].PlaybackFlags ForceWeaponIkOn
 
 addblockelements animations[24].animationdata.FrameEvents 1
