@@ -1441,6 +1441,7 @@ addanimation animation\SNIPER
 swapblockelements animations 20 26
 swapblockelements animations 21 27
 swapblockelements animations 22 28
+swapblockelements animations 8 29
 setfield animations[20].animationdata.NodeListChecksum -2062464963
 setfield animations[20].animationdata.ProductionChecksum 1623284803
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
@@ -1453,6 +1454,15 @@ setfield animations[22].animationdata.NodeListChecksum -2062464963
 setfield animations[22].animationdata.ProductionChecksum -1972919744
 setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+
+addblockelements animations[8].animationdata.Soundevents 1
+addblockelements animations[8].animationdata.Frameevents 1
+setfield animations[8].animationdata.Frameevents[0].Frame 5
+setfield animations[8].animationdata.Soundevents[0].Sound 0
+setfield animations[8].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield animations[8].animationdata.NodeListChecksum -2062464963
+setfield animations[8].animationdata.ProductionChecksum 1604638870
+setfield animations[8].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[15].weight 0.555
 setfield animations[15].animationdata.NextAnimation 24
