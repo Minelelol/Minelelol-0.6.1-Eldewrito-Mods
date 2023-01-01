@@ -486,8 +486,8 @@ setfield animations[42].PlaybackFlags ForceWeaponIkOn
 savetagchanges
 removeblockelements animations 45 *
 addanimation Animation\MAG
-swapblockelements animations 37 53
-swapblockelements animations 38 54
+swapblockelements animations 37 52
+swapblockelements animations 38 53
 addblockelements animations[37].animationdata.FrameEvents 2
 addblockelements animations[37].animationdata.SoundEvents 1
 addblockelements animations[38].animationdata.FrameEvents 2
@@ -511,31 +511,29 @@ setfield animations[38].animationdata.Frameevents[1].Frame 47
 
 setfield animations[36].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
 setfield animations[36].weight 0.555
-setfield animations[36].animationdata.NextAnimation 52
+setfield animations[36].animationdata.NextAnimation 51
 
-addblockelements animations[52].animationdata.SoundEvents 1
-setfield animations[52].animationdata.NodeListChecksum -461227299
-setfield animations[52].animationdata.ProductionChecksum 481521033
-setfield animations[52].animationdata.InternalFlags ValidProductionChecksum
-setfield animations[52].animationdata.Productionflags VerifySoundEvents
-setfield animations[52].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[52].weight 1
-setfield animations[52].animationdata.ParentAnimation 36
-setfield animations[52].animationdata.Soundevents[0].Sound 7
+addblockelements animations[51].animationdata.SoundEvents 1
+setfield animations[51].animationdata.NodeListChecksum -461227299
+setfield animations[51].animationdata.ProductionChecksum 481521033
+setfield animations[51].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[51].animationdata.Productionflags VerifySoundEvents
+setfield animations[51].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[51].weight 1
+setfield animations[51].animationdata.ParentAnimation 36
+setfield animations[51].animationdata.Soundevents[0].Sound 7
 
-setfield animations[28].weight 0.555
-setfield animations[28].animationdata.NextAnimation 50
 setfield animations[29].weight 0.555
-setfield animations[29].animationdata.NextAnimation 51
+setfield animations[29].animationdata.NextAnimation 50
 
 addblockelements animations[50].animationdata.FrameEvents 3
-addblockelements animations[50].animationdata.SoundEvents 1
-addblockelements animations[51].animationdata.FrameEvents 3
-addblockelements animations[51].animationdata.SoundEvents 2
+addblockelements animations[50].animationdata.SoundEvents 2
 
 setfield animations[50].weight 1
-setfield animations[50].animationdata.ParentAnimation 28
+setfield animations[50].animationdata.ParentAnimation 29
 setfield animations[50].animationdata.Soundevents[0].Sound 4
+setfield animations[50].animationdata.Soundevents[1].Sound 7
+setfield animations[50].animationdata.Soundevents[1].Frame 16
 setfield animations[50].animationdata.Frameevents[0].Frame 3
 setfield animations[50].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[50].animationdata.Frameevents[1].Frame 15
@@ -543,23 +541,8 @@ setfield animations[50].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[50].animationdata.Frameevents[2].Frame 23
 setfield animations[50].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[50].animationdata.NodeListChecksum -461227299
-setfield animations[50].animationdata.ProductionChecksum -640255676
+setfield animations[50].animationdata.ProductionChecksum -278704124
 setfield animations[50].animationdata.InternalFlags ValidProductionChecksum
-
-setfield animations[51].weight 1
-setfield animations[51].animationdata.ParentAnimation 28
-setfield animations[51].animationdata.Soundevents[0].Sound 4
-setfield animations[51].animationdata.Soundevents[1].Sound 7
-setfield animations[51].animationdata.Soundevents[1].Frame 16
-setfield animations[51].animationdata.Frameevents[0].Frame 3
-setfield animations[51].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
-setfield animations[51].animationdata.Frameevents[1].Frame 15
-setfield animations[51].animationdata.Frameevents[2].TypeHO AllowInterruption
-setfield animations[51].animationdata.Frameevents[2].Frame 23
-setfield animations[51].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[51].animationdata.NodeListChecksum -461227299
-setfield animations[51].animationdata.ProductionChecksum -278704124
-setfield animations[51].animationdata.InternalFlags ValidProductionChecksum
 
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].Label land_soft
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].GraphIndex -1
@@ -1442,6 +1425,7 @@ swapblockelements animations 20 26
 swapblockelements animations 21 27
 swapblockelements animations 22 28
 swapblockelements animations 8 29
+swapblockelements animations 26 30
 setfield animations[20].animationdata.NodeListChecksum -2062464963
 setfield animations[20].animationdata.ProductionChecksum 1623284803
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
@@ -1455,6 +1439,8 @@ setfield animations[22].animationdata.ProductionChecksum -1972919744
 setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
+setfield animations[8].weight 0.555
+setfield animations[8].animationdata.NextAnimation 26
 addblockelements animations[8].animationdata.Soundevents 1
 addblockelements animations[8].animationdata.Frameevents 1
 setfield animations[8].animationdata.Frameevents[0].Frame 5
@@ -1463,6 +1449,17 @@ setfield animations[8].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
 setfield animations[8].animationdata.NodeListChecksum -2062464963
 setfield animations[8].animationdata.ProductionChecksum 1604638870
 setfield animations[8].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[26].weight 1
+setfield animations[26].animationdata.ParentAnimation 8
+addblockelements animations[26].animationdata.Soundevents 1
+addblockelements animations[26].animationdata.Frameevents 1
+setfield animations[26].animationdata.Frameevents[0].Frame 5
+setfield animations[26].animationdata.Soundevents[0].Sound 0
+setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
+setfield animations[26].animationdata.NodeListChecksum -2062464963
+setfield animations[26].animationdata.ProductionChecksum 1604638870
+setfield animations[26].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[15].weight 0.555
 setfield animations[15].animationdata.NextAnimation 24
@@ -1490,7 +1487,7 @@ setfield animations[25].animationdata.ProductionChecksum -207905533
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[25].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[25].animationdata.Productionflags VerifySoundEvents
-removeblockelements animations 26 *
+removeblockelements animations 27 *
 savetagchanges
 exitto tags
 echo --------------------------------------------------------------------------------------------------------
