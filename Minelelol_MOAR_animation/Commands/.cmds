@@ -44,6 +44,7 @@ savetagchanges
 removeblockelements animations 26 *
 addanimation Animation\AR
 swapblockelements animations 29 23
+swapblockelements animations 30 12
 removeblockelements animations 29 *
 addblockelements animations[26].animationdata.FrameEvents 3
 addblockelements animations[26].animationdata.SoundEvents 1
@@ -51,6 +52,10 @@ addblockelements animations[27].animationdata.FrameEvents 3
 addblockelements animations[27].animationdata.SoundEvents 1
 addblockelements animations[28].animationdata.SoundEvents 1
 
+
+setfield animations[12].animationdata.NodeListChecksum 1037822178
+setfield animations[12].animationdata.ProductionChecksum 1833497001
+setfield animations[12].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[23].animationdata.NodeListChecksum 1037822178
 setfield animations[23].animationdata.ProductionChecksum 710196169
 setfield animations[23].animationdata.InternalFlags ValidProductionChecksum
@@ -110,13 +115,18 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 25 *
 addanimation Animation\BATTLE_RIF
+swapblockelements animations 30 11
 swapblockelements animations 29 22
 swapblockelements animations 27 16
-removeblockelements animations 29
+removeblockelements animations 29 *
 removeblockelements animations 27
 setfield animations[22].animationdata.NodeListChecksum 1037822178
 setfield animations[22].animationdata.ProductionChecksum 710196169
 setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[11].animationdata.NodeListChecksum 1037822178
+setfield animations[11].animationdata.ProductionChecksum -558653036
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
 
 addblockelements animations[16].animationdata.SoundEvents 1
 setfield animations[16].animationdata.NodeListChecksum 1037822178
@@ -197,7 +207,8 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 27 *
 addanimation Animation\BEAM_RIF
-swapblockelements animations 27 23
+swapblockelements animations 27 14
+swapblockelements animations 28 23
 removeblockelements animations 27 *
 addblockelements modes[0].weaponclass[0].weaponik 1
 removeblockelements modes[0].weaponclass[0].weaponik 1 *
@@ -208,6 +219,10 @@ setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
 setfield animations[20].PlaybackFlags ForceWeaponIkOn
 setfield animations[21].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
 setfield animations[22].PlaybackFlags ForceWeaponIkOn
+
+setfield animations[23].animationdata.NodeListChecksum 288679712
+setfield animations[23].animationdata.ProductionChecksum 153786287
+setfield animations[23].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[23].animationdata.NodeListChecksum 288679712
 setfield animations[23].animationdata.ProductionChecksum -2013369692
@@ -223,7 +238,7 @@ exitto tags
 echo --------------------------------------------------------------------------------------------------------
 echo I                                           CARBINE                                                    I
 echo --------------------------------------------------------------------------------------------------------
-ECHO Carbine, Carby need some love man but godamn no content :(
+ECHO Carbine, Carby got some love man fuck no content bullshit
 edittag objects\characters\masterchief\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine.jmad
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[0].Animation 7
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 6
@@ -232,9 +247,13 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 28 *
 addanimation Animation\CARBINE
-swapblockelements animations 29 21
-swapblockelements animations 30 24
+swapblockelements animations 29 13
+swapblockelements animations 30 21
+swapblockelements animations 31 24
 removeblockelements animations 29 *
+setfield animations[13].animationdata.NodeListChecksum -462498579
+setfield animations[13].animationdata.ProductionChecksum 1098016242
+setfield animations[13].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[21].animationdata.NodeListChecksum -462498579
 setfield animations[21].animationdata.ProductionChecksum 1305990970
 setfield animations[21].animationdata.InternalFlags ValidProductionChecksum
@@ -266,6 +285,64 @@ echo ---------------------------------------------------------------------------
 echo I                                              DMR                                                     I
 echo --------------------------------------------------------------------------------------------------------
 ECHO DMR, IT USED TO RULED THE WORLD.
+
+edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v1.mode
+setfield MarkerGroups[3].Markers[0].Translation 0.2391834 -0.006103039 0.04649879
+setfield MarkerGroups[3].Markers[0].Rotation 0.8191519 -0.5735766 3.58E-08 2.51E-08
+setfield nodes[2].DefaultTranslation 0.003623334 0.003865495 0.05560584
+setfield nodes[2].DefaultRotation 0.5728751 -2.5E-08 0 -0.8196427
+setfield nodes[2].InverseForward 1 -2.864376E-08 4.098213E-08
+setfield nodes[2].InverseLeft -2.864376E-08 0.3436282 0.9391058
+setfield nodes[2].InverseUp -4.098213E-08 -0.9391058 0.3436282
+setfield nodes[2].InversePosition -0.003623331 0.05089147 -0.02273784
+setfield nodes[2].DistanceFromParent 0.05585767
+savetagchanges
+exitto tags
+
+edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v2.mode
+setfield nodes[2].DefaultTranslation 0.003623334 0.003865495 0.05560584
+setfield nodes[2].DefaultRotation 0.5728751 -2.5E-08 0 -0.8196427
+setfield nodes[2].InverseForward 1 -2.864376E-08 4.098213E-08
+setfield nodes[2].InverseLeft -2.864376E-08 0.3436282 0.9391058
+setfield nodes[2].InverseUp -4.098213E-08 -0.9391058 0.3436282
+setfield nodes[2].InversePosition -0.003623331 0.05089147 -0.02273784
+setfield nodes[2].DistanceFromParent 0.05585767
+savetagchanges
+exitto tags
+
+edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v3.mode
+setfield nodes[2].DefaultTranslation 0.003623334 0.003865495 0.05560584
+setfield nodes[2].DefaultRotation 0.5728751 -2.5E-08 0 -0.8196427
+setfield nodes[2].InverseForward 1 -2.864376E-08 4.098213E-08
+setfield nodes[2].InverseLeft -2.864376E-08 0.3436282 0.9391058
+setfield nodes[2].InverseUp -4.098213E-08 -0.9391058 0.3436282
+setfield nodes[2].InversePosition -0.003623331 0.05089147 -0.02273784
+setfield nodes[2].DistanceFromParent 0.05585767
+savetagchanges
+exitto tags
+
+edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v4.mode
+setfield nodes[2].DefaultTranslation 0.003623334 0.003865495 0.05560584
+setfield nodes[2].DefaultRotation 0.5728751 -2.5E-08 0 -0.8196427
+setfield nodes[2].InverseForward 1 -2.864376E-08 4.098213E-08
+setfield nodes[2].InverseLeft -2.864376E-08 0.3436282 0.9391058
+setfield nodes[2].InverseUp -4.098213E-08 -0.9391058 0.3436282
+setfield nodes[2].InversePosition -0.003623331 0.05089147 -0.02273784
+setfield nodes[2].DistanceFromParent 0.05585767
+savetagchanges
+exitto tags
+
+edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v6.mode
+setfield nodes[2].DefaultTranslation 0.003623334 0.003865495 0.05560584
+setfield nodes[2].DefaultRotation 0.5728751 -2.5E-08 0 -0.8196427
+setfield nodes[2].InverseForward 1 -2.864376E-08 4.098213E-08
+setfield nodes[2].InverseLeft -2.864376E-08 0.3436282 0.9391058
+setfield nodes[2].InverseUp -4.098213E-08 -0.9391058 0.3436282
+setfield nodes[2].InversePosition -0.003623331 0.05089147 -0.02273784
+setfield nodes[2].DistanceFromParent 0.05585767
+savetagchanges
+exitto tags
+
 edittag objects\characters\masterchief\fp\weapons\rifle\fp_dmr\fp_dmr.jmad
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[0].Animation 7
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 6
@@ -274,8 +351,15 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 25 *
 addanimation Animation\DMR
+swapblockelements animations 30 11
 swapblockelements animations 29 18
 swapblockelements animations 28 17
+removeblockelements animations 28 *
+
+setfield animations[11].animationdata.NodeListChecksum 341439038
+setfield animations[11].animationdata.ProductionChecksum -343825904
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
+
 addblockelements animations[17].animationdata.FrameEvents 2
 addblockelements animations[17].animationdata.SoundEvents 1
 setfield animations[17].animationdata.NodeListChecksum 341439038
@@ -346,8 +430,18 @@ exitto tags
 echo --------------------------------------------------------------------------------------------------------
 echo I                                              FUEL_ROD                                                I
 echo --------------------------------------------------------------------------------------------------------
-echo FL, FLAK, FLAK CANNON this gun is broken
+echo FL, FLAK, FLAK CANNON Counting up the damage when it's done
+edittag objects\weapons\support_high\flak_cannon\fp_flak_cannon\fp_flak_cannon.mode
+setfield MarkerGroups[2].Markers[0].Translation 0.1185 0.0032449 -0.081
+setfield MarkerGroups[2].Markers[0].Rotation -0.728405 0.1699 -0.6834367 0.989
+savetagchanges
+exitto tags
+
 edittag objects\characters\masterchief\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon.jmad
+addblockelements modes[0].weaponclass[0].weaponik 1
+removeblockelements modes[0].weaponclass[0].weaponik 1 *
+setfield modes[0].weaponclass[0].weaponik[0].marker left_hand
+setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[0].Animation 7
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 6
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[5].Animation 5
@@ -359,16 +453,21 @@ addanimation animation\FUELROD
 swapblockelements animations 20 25
 swapblockelements animations 21 26
 swapblockelements animations 4 27
+swapblockelements animations 10 28
 
-setfield animations[4].animationdata.NodeListChecksum -462889827
+setfield animations[4].animationdata.NodeListChecksum -410940171
 setfield animations[4].animationdata.ProductionChecksum 820314947
 setfield animations[4].animationdata.InternalFlags ValidProductionChecksum
 
-setfield animations[20].animationdata.NodeListChecksum -462889827
+setfield animations[10].animationdata.NodeListChecksum -410940171
+setfield animations[10].animationdata.ProductionChecksum -1848462392
+setfield animations[10].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[20].animationdata.NodeListChecksum -410940171
 setfield animations[20].animationdata.ProductionChecksum -1862434197
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
 
-setfield animations[21].animationdata.NodeListChecksum -462889827
+setfield animations[21].animationdata.NodeListChecksum -410940171
 setfield animations[21].animationdata.ProductionChecksum 604534468
 setfield animations[21].animationdata.InternalFlags ValidProductionChecksum
 
@@ -388,13 +487,20 @@ setfield animations[24].animationdata.NodeListChecksum -410940171
 setfield animations[24].animationdata.ProductionChecksum 1088360712
 setfield animations[24].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[24].animationdata.Productionflags VerifySoundEvents
+
+setfield animations[15].PlaybackFlags DisableWeaponIk
+setfield animations[16].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[17].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[22].PlaybackFlags DisableWeaponIk
+setfield animations[23].PlaybackFlags DisableWeaponIk
+
 removeblockelements animations 25 *
 savetagchanges
 exitto tags
 echo --------------------------------------------------------------------------------------------------------
 echo I                                              HAMMER                                                  I
 echo --------------------------------------------------------------------------------------------------------
-ECHO GRAVITY HAMMER LAUNCH ME TO SPACE also for fuck sake why is there no content minelelol?? lazy bastard
+ECHO GRAVITY HAMMER someone long long time ago said there no content and they were correct
 edittag objects\weapons\melee\gravity_hammer\fp_gravity_hammer\fp_gravity_hammer.mode
 setfield MarkerGroups[3].Markers[0].Translation -0.0089413 0.02415987 -0.10795
 setfield MarkerGroups[3].Markers[0].Rotation 0.085 0.1152043 0.4 -0.763
@@ -409,11 +515,16 @@ savetagchanges
 removeblockelements animations 22 *
 addanimation Animation\Hammer
 swapblockelements animations 15 23
+swapblockelements animations 11 25
 removeblockelements animations 23
 addblockelements modes[0].weaponclass[0].weaponik 1
 removeblockelements modes[0].weaponclass[0].weaponik 1 *
 setfield modes[0].weaponclass[0].weaponik[0].marker left_hand
 setfield modes[0].weaponclass[0].weaponik[0].attachtomarker left_hand
+
+setfield animations[11].animationdata.NodeListChecksum 939144070
+setfield animations[11].animationdata.ProductionChecksum -202474013
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
 
 addblockelements animations[15].animationdata.SoundEvents 1
 setfield animations[15].animationdata.NodeListChecksum 939144070
@@ -500,6 +611,17 @@ removeblockelements animations 45 *
 addanimation Animation\MAG
 swapblockelements animations 37 52
 swapblockelements animations 38 53
+swapblockelements animations 31 54
+swapblockelements animations 7 55
+
+setfield animations[31].animationdata.NodeListChecksum -461227299
+setfield animations[31].animationdata.ProductionChecksum 1916586587
+setfield animations[31].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[7].animationdata.NodeListChecksum -461227299
+setfield animations[7].animationdata.ProductionChecksum -1097033052
+setfield animations[7].animationdata.InternalFlags ValidProductionChecksum
+
 addblockelements animations[37].animationdata.FrameEvents 2
 addblockelements animations[37].animationdata.SoundEvents 1
 addblockelements animations[38].animationdata.FrameEvents 2
@@ -614,6 +736,11 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 17
 savetagchanges
 removeblockelements animations 42 *
 addanimation Animation\MAULER
+swapblockelements animations 29 44
+removeblockelements animations 44 *
+setfield animations[29].animationdata.NodeListChecksum 336995582
+setfield animations[29].animationdata.ProductionChecksum -860091894
+setfield animations[29].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[27].weight 0.555
 setfield animations[27].animationdata.NextAnimation 43
@@ -696,7 +823,11 @@ swapblockelements animations 23 28
 swapblockelements animations 24 29
 swapblockelements animations 17 30
 swapblockelements animations 18 31
+swapblockelements animations 11 32
 
+setfield animations[11].animationdata.NodeListChecksum 1635012550
+setfield animations[11].animationdata.ProductionChecksum -648080305
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
 
 addblockelements animations[23].animationdata.FrameEvents 1
 addblockelements animations[24].animationdata.FrameEvents 1
@@ -834,6 +965,16 @@ swapblockelements animations 24 56
 swapblockelements animations 25 57
 swapblockelements animations 26 58
 swapblockelements animations 52 60
+swapblockelements animations 39 61
+swapblockelements animations 15 62
+
+setfield animations[15].animationdata.NodeListChecksum 737305646
+setfield animations[15].animationdata.ProductionChecksum -1893324298
+setfield animations[15].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[39].animationdata.NodeListChecksum 737305646
+setfield animations[39].animationdata.ProductionChecksum -2076137686
+setfield animations[39].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[24].weight 0.5
 setfield animations[24].animationdata.NextAnimation 25
@@ -946,7 +1087,7 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[2].GraphIndex -1
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[2].Animation 27
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[3].Label overlays
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[3].GraphIndex -1
-setfield modes[0].weaponclass[0].weapontype[0].set.overlays[3].Animation 8
+setfield modes[0].weaponclass[0].weapontype[0].set.overlays[3].Animation 31
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[4].Label pitch_and_turn
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[4].GraphIndex -1
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[4].Animation 32
@@ -959,7 +1100,12 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 18
 savetagchanges
 removeblockelements animations 45 *
 addanimation Animation\PR
-swapblockelements animations 47 32
+swapblockelements animations 47 31
+swapblockelements animations 48 32
+
+setfield animations[31].animationdata.NodeListChecksum -452521795
+setfield animations[31].animationdata.ProductionChecksum 272157897
+setfield animations[31].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[32].animationdata.blendscreen 0
 setfield animations[32].animationdata.NodeListChecksum -452521795
@@ -1026,6 +1172,12 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[5].Animation 5
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 removeblockelements animations 26 *
 addanimation animation\rocket
+swapblockelements animations 29 11
+removeblockelements animations 29 *
+
+setfield animations[11].animationdata.NodeListChecksum -462889827
+setfield animations[11].animationdata.ProductionChecksum -829113340
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[17].weight 0.555
 setfield animations[17].animationdata.NextAnimation 28
@@ -1185,7 +1337,13 @@ swapblockelements animations 23 37
 swapblockelements animations 24 38
 swapblockelements animations 25 39
 swapblockelements animations 19 43
+swapblockelements animations 11 44
 removeblockelements animations 26 14
+removeblockelements animations 29 *
+
+setfield animations[11].animationdata.NodeListChecksum -461722627
+setfield animations[11].animationdata.ProductionChecksum 1195764611
+setfield animations[11].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[0].animationdata.NodeListChecksum -461722627
 setfield animations[0].animationdata.ProductionChecksum -981226608
@@ -1379,12 +1537,16 @@ addanimation Animation\SMG
 swapblockelements animations 41 17
 swapblockelements animations 42 20
 swapblockelements animations 43 36
+swapblockelements animations 44 25
 setfield animations[17].animationdata.NodeListChecksum 762532158
 setfield animations[17].animationdata.ProductionChecksum 14991286
 setfield animations[17].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[20].animationdata.NodeListChecksum 762532158
 setfield animations[20].animationdata.ProductionChecksum 100148581
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[25].animationdata.NodeListChecksum 762532158
+setfield animations[25].animationdata.ProductionChecksum -1155137008
+setfield animations[25].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[36].animationdata.NodeListChecksum 762532158
 setfield animations[36].animationdata.ProductionChecksum 41370571
 setfield animations[36].animationdata.InternalFlags ValidProductionChecksum
@@ -1491,6 +1653,10 @@ swapblockelements animations 21 27
 swapblockelements animations 22 28
 swapblockelements animations 8 29
 swapblockelements animations 26 30
+swapblockelements animations 10 31
+setfield animations[10].animationdata.NodeListChecksum -2062464963
+setfield animations[10].animationdata.ProductionChecksum -1170450785
+setfield animations[10].animationdata.InternalFlags ValidProductionChecks
 setfield animations[20].animationdata.NodeListChecksum -2062464963
 setfield animations[20].animationdata.ProductionChecksum 1623284803
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
@@ -1552,6 +1718,11 @@ setfield animations[25].animationdata.ProductionChecksum -207905533
 setfield animations[25].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[25].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[25].animationdata.Productionflags VerifySoundEvents
+
+setfield animations[1].PlaybackFlags ForceWeaponIkOn
+setfield animations[2].PlaybackFlags ForceWeaponIkOn
+setfield animations[3].PlaybackFlags ForceWeaponIkOn
+
 removeblockelements animations 27 *
 savetagchanges
 exitto tags
@@ -1581,6 +1752,10 @@ removeblockelements animations 32 *
 addanimation animation\spartan_laser
 swapblockelements animations 26 33
 swapblockelements animations 30 34
+swapblockelements animations 17 35
+setfield animations[17].animationdata.NodeListChecksum 1277860952
+setfield animations[17].animationdata.ProductionChecksum 604052529
+setfield animations[17].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[26].animationdata.NodeListChecksum 1277860952
 setfield animations[26].animationdata.ProductionChecksum 634345726
 setfield animations[26].animationdata.InternalFlags ValidProductionChecksum
@@ -1659,8 +1834,18 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 20
 savetagchanges
 removeblockelements animations 41 *
 addanimation animation\Spiker
+swapblockelements animations 6 42
+swapblockelements animations 28 43
+swapblockelements animations 38 44
 
-swapblockelements animations 38 42
+setfield animations[6].animationdata.NodeListChecksum -883164196
+setfield animations[6].animationdata.ProductionChecksum 141329173
+setfield animations[6].animationdata.InternalFlags ValidProductionChecksum
+
+setfield animations[28].animationdata.NodeListChecksum -883164196
+setfield animations[28].animationdata.ProductionChecksum -1590351834
+setfield animations[28].animationdata.InternalFlags ValidProductionChecksum
+
 setfield animations[38].animationdata.NodeListChecksum -883164196
 setfield animations[38].animationdata.ProductionChecksum 1595748606
 setfield animations[38].animationdata.InternalFlags ValidProductionChecksum
@@ -1707,6 +1892,11 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 25 *
 addanimation animation\sword
+swapblockelements animations 32 14
+removeblockelements animations 32 *
+setfield animations[14].animationdata.NodeListChecksum 939232422
+setfield animations[14].animationdata.ProductionChecksum 1250515918
+setfield animations[14].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[7].weight 0.555
 setfield animations[7].animationdata.NextAnimation 25
