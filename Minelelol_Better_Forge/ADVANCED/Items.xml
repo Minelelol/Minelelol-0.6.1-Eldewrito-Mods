@@ -1024,7 +1024,7 @@
         <item type="prop" name="Mancannon Big" tagindex="0x3A1A"/>
         <item type="prop" name="Lightning Spark" tagindex="0x3A28"/>
         <item type="prop" name="Gas Leak Continuous" tagindex="0x3A26"/>
-        <item type="prop" name="Diamondback Man Cannon FX" tagindex="0x3A2B"/>
+        <item type="prop" name="Man Cannon FX" tagindex="0x3A2B"/>
         <item type="prop" name="Water Leaking Falling" tagindex="0x3A2A"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
         <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
@@ -1073,7 +1073,7 @@
         <item type="prop" name="Jittery Hologram 3" tagindex="0x2ee2"/>
         <item type="prop" name="Jittery Hologram 4" tagindex="0x2ee3"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
-        <item type="prop" name="Quadwing Wing Big tagindex="0x345B"/>
+        <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
     </category>
     <category name="High Ground">
