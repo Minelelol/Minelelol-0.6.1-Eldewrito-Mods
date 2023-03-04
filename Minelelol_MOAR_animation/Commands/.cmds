@@ -232,6 +232,8 @@ setfield animations[10].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[11].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[16].PlaybackFlags DisableWeaponIk
+setfield animations[17].PlaybackFlags DisableWeaponIk
 setfield animations[26].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 savetagchanges
 exitto tags
@@ -906,7 +908,7 @@ exitto tags
 echo --------------------------------------------------------------------------------------------------------
 echo I                                        PLASMA_PISTOL                                                 I
 echo --------------------------------------------------------------------------------------------------------
-echo Le PP at its finest
+echo Le PP at its finest bruh mine you idiot, Plasma Pistol
 createtag snd!
 deletetag sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_ready_initial.snd!
 nametag * sound\weapons\plasma_pistol\plaspistol_fp\plasma_pistol_ready_initial
@@ -1041,7 +1043,25 @@ setfield animations[53].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[53].animationdata.NodeListChecksum 737305646
 setfield animations[53].animationdata.ProductionChecksum 1699532794
 setfield animations[53].animationdata.InternalFlags ValidProductionChecksum
-removeblockelements animations 56 *
+
+removeblockelements animations 56 7
+setfield animations[33].weight 0.444
+setfield animations[33].animationdata.NextAnimation 56
+addblockelements animations[56].animationdata.FrameEvents 3
+addblockelements animations[56].animationdata.SoundEvents 1
+setfield animations[56].weight 1
+setfield animations[56].animationdata.ParentAnimation 33
+setfield animations[56].animationdata.Soundevents[0].Sound 0
+setfield animations[56].animationdata.Frameevents[0].Frame 3
+setfield animations[56].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
+setfield animations[56].animationdata.Frameevents[1].Frame 15
+setfield animations[56].animationdata.Frameevents[2].TypeHO AllowInterruption
+setfield animations[56].animationdata.Frameevents[2].Frame 29
+setfield animations[56].PlaybackFlags DisableWeaponAim1stPerson
+setfield animations[56].animationdata.NodeListChecksum 737305646
+setfield animations[56].animationdata.ProductionChecksum -1383331415
+setfield animations[56].animationdata.InternalFlags ValidProductionChecksum
+removeblockelements animations 57 *
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].Label land_soft
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].GraphIndex -1
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].Animation 54
@@ -1253,6 +1273,7 @@ addblockelements animations[14].animationdata.SoundEvents 1
 removeblockelements animations 18 *
 addanimation animation\sentinel
 
+setfield animations[14].PlaybackFlags ForceWeaponIkOn
 setfield animations[15].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[16].PlaybackFlags DisableWeaponAim1stPerson
 
