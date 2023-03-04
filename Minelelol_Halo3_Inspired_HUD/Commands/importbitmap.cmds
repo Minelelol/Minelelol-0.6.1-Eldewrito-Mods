@@ -160,6 +160,12 @@ SetField HUDWidgets[0].BitmapWidgets[12].StateData[0].UnitGeneralFlags 0
 savetagchanges
 exitto tags
 
+edittag ui\chud\globals.chgd
+setfield Hudglobals[0].Hudattributes[0].MessageCountDelta -2
+setfield Hudglobals[0].Hudattributes[0].StateMessageScale 1.1
+setfield Hudglobals[0].Hudattributes[0].StateLeftRightOffset_HO 0 0.20
+savetagchanges
+exitto tags
 ECHO ---------------
 ECHO | MINOR FIXES |
 ECHO ---------------
@@ -370,26 +376,31 @@ savetagchanges
 exitto tags
 
 edittag ui\hud\hud_messages.unic
+setstring english ar_acc_picked_up "Picked up a Assault Rifle with Accuracy mods"
 setstring english ar_acc_pickup "\uE461\uE45F to pick up|n|r\uE139"
 setstring english ar_acc_swap "\uE461\uE45F to swap for|n|r\uE139"
 setstring english ar_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE139"
 setstring english ar_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE139"
 
+setstring english ar_dmg_picked_up "Picked up a Assault Rifle with Damage mods"
 setstring english ar_dmg_pickup "\uE461\uE45F to pick up|n|r\uE13A"
 setstring english ar_dmg_swap "\uE461\uE45F to swap for|n|r\uE13A"
 setstring english ar_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE13A"
 setstring english ar_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13A"
 
+setstring english ar_picked_up "Picked up a Assault Rifle"
 setstring english ar_pickup "\uE461\uE45F to pick up|n|r\uE112"
 setstring english ar_swap "\uE461\uE45F to swap for|n|r\uE112"
 setstring english ar_swap_ai "\uE461\uE45F to take ally's|n|r\uE112"
 setstring english ar_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE112"
 
+setstring english ar_pwr_picked_up "Picked up a Assault Rifle with Power mods"
 setstring english ar_pwr_pickup "\uE461\uE45F to pick up|n|r\uE13B"
 setstring english ar_pwr_swap "\uE461\uE45F to swap for|n|r\uE13B"
 setstring english ar_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE13B"
 setstring english ar_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13B"
 
+setstring english ar_rof_picked_up "Picked up a Assault Rifle with Rate of Fire mods"
 setstring english ar_rof_pickup "\uE461\uE45F to pick up|n|r\uE13C"
 setstring english ar_rof_swap "\uE461\uE45F to swap for|n|r\uE13C"
 setstring english ar_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE13C"
@@ -695,6 +706,7 @@ setstring english pr_pwr_swap "\uE461\uE45F to swap for|n|r\uE164"
 setstring english pr_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE164"
 setstring english pr_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE164"
 
+setstring english ps_picked_up "Picked up a Energy Sword"
 setstring english ps_pickup "\uE461\uE45F to pick up|n|r\uE119"
 setstring english ps_swap "\uE461\uE45F to swap for|n|r\uE119"
 setstring english ps_swap_ai "\uE461\uE45F to take ally's|n|r\uE119"
@@ -734,6 +746,7 @@ setstring english shade_enter "\uE461\uE45F to operate Shade Turret"
 
 setstring english smg_dual "\uE461\uE45E to dual wield|n|r\uE068"
 setstring english smg_dual_swap "\uE461\uE45E to swap for|n|r\uE068"
+setstring english smg_picked_up "Picked up a SMG"
 setstring english smg_pickup "\uE461\uE45F to pick up|n|r\uE130"
 setstring english smg_swap "\uE461\uE45F to swap for|n|r\uE130"
 setstring english smg_swap_ai "\uE461\uE45F to take ally's|n|r\uE130"
@@ -741,6 +754,7 @@ setstring english smg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\uE13
 
 setstring english smg_acc_dual "\uE461\uE45E to dual wield|n|r\uE165"
 setstring english smg_acc_dual_swap "\uE461\uE45E to swap for|n|r\uE165"
+setstring english smg_acc_picked_up "Picked up a SMG with Accuracy mods"
 setstring english smg_acc_pickup "\uE461\uE45F to pick up|n|r\uE166"
 setstring english smg_acc_swap "\uE461\uE45F to swap for|n|r\uE166"
 setstring english smg_acc_swap_ai "\uE461\uE45F to take ally's|n|r\uE166"
@@ -748,6 +762,7 @@ setstring english smg_acc_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\
 
 setstring english smg_dmg_dual "\uE461\uE45E to dual wield|n|r\uE168"
 setstring english smg_dmg_dual_swap "\uE461\uE45E to swap for|n|r\uE168"
+setstring english smg_dmg_picked_up "Picked up a SMG with Damage mods"
 setstring english smg_dmg_pickup "\uE461\uE45F to pick up|n|r\uE169"
 setstring english smg_dmg_swap "\uE461\uE45F to swap for|n|r\uE169"
 setstring english smg_dmg_swap_ai "\uE461\uE45F to take ally's|n|r\uE169"
@@ -755,6 +770,7 @@ setstring english smg_dmg_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\
 
 setstring english smg_pwr_dual "\uE461\uE45E to dual wield|n|r\uE15A"
 setstring english smg_pwr_dual_swap "\uE461\uE45E to swap for|n|r\uE15A"
+setstring english smg_pwr_picked_up "Picked up a SMG with Power mods"
 setstring english smg_pwr_pickup "\uE461\uE45F to pick up|n|r\uE15B"
 setstring english smg_pwr_swap "\uE461\uE45F to swap for|n|r\uE15B"
 setstring english smg_pwr_swap_ai "\uE461\uE45F to take ally's|n|r\uE15B"
@@ -762,6 +778,7 @@ setstring english smg_pwr_switch_to "Out of ammo|nPress \uE446 to switch to|n|r\
 
 setstring english smg_rof_dual "\uE461\uE45E to dual wield|n|r\uE15C"
 setstring english smg_rof_dual_swap "\uE461\uE45E to swap for|n|r\uE15C"
+setstring english smg_rof_picked_up "Picked up a SMG with Rate of Fire mods"
 setstring english smg_rof_pickup "\uE461\uE45F to pick up|n|r\uE15D"
 setstring english smg_rof_swap "\uE461\uE45F to swap for|n|r\uE15D"
 setstring english smg_rof_swap_ai "\uE461\uE45F to take ally's|n|r\uE15D"
