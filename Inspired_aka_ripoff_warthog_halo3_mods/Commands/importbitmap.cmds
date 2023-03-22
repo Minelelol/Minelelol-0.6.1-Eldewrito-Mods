@@ -28,6 +28,11 @@ importbitmap 0 DDS\00004367.dds
 savetagchanges
 exitto tags
 
+edittag 0x0000436D
+importbitmap 0 DDS\0000436D.dds
+savetagchanges
+exitto tags
+
 edittag 0x00004375
 importbitmap 0 DDS\00004375.dds
 savetagchanges

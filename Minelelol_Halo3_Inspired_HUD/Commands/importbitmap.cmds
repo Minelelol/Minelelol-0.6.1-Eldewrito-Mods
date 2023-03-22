@@ -44,6 +44,16 @@ importbitmap 0 DDS/00000C46.dds
 savetagchanges
 exitto tags
 
+edittag 0x00005740.bitm
+importbitmap 0 DDS/00005740.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000C66.bitm
+importbitmap 0 DDS/00000C66.dds
+savetagchanges
+exitto tags
+
 edittag ui\chud\bitmaps\red_flash.bitm
 importbitmap 0 DDS/00001C86.dds
 savetagchanges
