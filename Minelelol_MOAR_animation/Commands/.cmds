@@ -657,8 +657,6 @@ setfield animations[7].animationdata.NodeListChecksum -461227299
 setfield animations[7].animationdata.ProductionChecksum -1097033052
 setfield animations[7].animationdata.InternalFlags ValidProductionChecksum
 
-addblockelements animations[37].animationdata.FrameEvents 2
-addblockelements animations[37].animationdata.SoundEvents 1
 addblockelements animations[38].animationdata.FrameEvents 2
 addblockelements animations[38].animationdata.SoundEvents 1
 
