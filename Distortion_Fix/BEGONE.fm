@@ -1,6 +1,0 @@
-ECHO FMM_OUTPUT Installing Distortion Fix
-
-cd mods\tagMods\Distortion_Fix
-Type "go go go ga ga" | Install.bat
-
-ECHO FMM_OUTPUT Distortion Fix has been installed!
